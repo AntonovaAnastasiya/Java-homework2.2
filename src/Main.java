@@ -6,8 +6,7 @@ public class Main {
         int amountplus = 1600;
         int bonus = amountplus / 100;
         int bonus2 = 0;
-        int bonus3 = bonus + 1;
-        int total = initialamount + amountplus + bonus3;
+        int total = initialamount + amountplus + bonus;
         int total2 = initialamount + amountplus + bonus2;
 
 
