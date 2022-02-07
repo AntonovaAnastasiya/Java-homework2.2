@@ -11,13 +11,10 @@ public class Main {
 
 
         //Логика
-        if (amountplus > 1000) {
-            System.out.println("Итоговый счет");
-            System.out.println(total);
-        }
-        if (amountplus < 1000) {
-            System.out.println("Итоговый счет");
-            System.out.println(total2);
+        if (amountplus <= 1000) {
+            System.out.println("Итоговый счет " + total2);
+        } else {
+            System.out.println("Итоговый счет " + total);
         }
     }
 }
